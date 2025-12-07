@@ -1,0 +1,226 @@
+
+==== INICIANDO EXPERIMENTOS ====
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/pequeno_aleatorio.bin
+--Selection Sort--
+        comparacoes: 499500
+        trocas: 999
+        Tempo: 1.7173 ms
+--Insertion Sort--
+        comparacoes: 244178
+        trocas: 243186
+        Tempo: 1.1389 ms
+--Bubble Sort-- 
+        comparacoes: 499500
+        trocas: 243186
+        Tempo: 4.2507 ms
+--Bubble Sort Otimizado--
+        comparacoes: 499329
+        trocas: 243186
+        Tempo: 4.9351 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/pequeno_crescente.bin
+--Selection Sort--
+        comparacoes: 499500
+        trocas: 999
+        Tempo: 1.8813 ms
+--Insertion Sort--
+        comparacoes: 999
+        trocas: 0
+        Tempo: 0.0051 ms
+--Bubble Sort--
+        comparacoes: 499500
+        trocas: 0
+        Tempo: 1.6405 ms
+--Bubble Sort Otimizado--
+        comparacoes: 999
+        trocas: 0
+        Tempo: 0.0035 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/pequeno_decrescente.bin
+--Selection Sort--
+        comparacoes: 499500
+        trocas: 999
+        Tempo: 1.7382 ms
+--Insertion Sort--
+        comparacoes: 499500
+        trocas: 499500
+        Tempo: 2.3828 ms
+--Bubble Sort--
+        comparacoes: 499500
+        trocas: 499500
+        Tempo: 7.1287 ms
+--Bubble Sort Otimizado-- 
+        comparacoes: 499500
+        trocas: 499500
+        Tempo: 7.6799 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/medio_aleatorio.bin
+--Selection Sort--
+        comparacoes: 49995000
+        trocas: 9999
+        Tempo: 173.572 ms
+--Insertion Sort-- 
+        comparacoes: 25162071
+        trocas: 25152083
+        Tempo: 117.88 ms
+--Bubble Sort-- 
+        comparacoes: 49995000
+        trocas: 25152083
+        Tempo: 465.048 ms
+--Bubble Sort Otimizado-- 
+        comparacoes: 49992150
+        trocas: 25152083
+        Tempo: 470.038 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/medio_crescente.bin
+--Selection Sort--
+        comparacoes: 49995000
+        trocas: 9999
+        Tempo: 166.189 ms
+--Insertion Sort--
+        comparacoes: 9999
+        trocas: 0
+        Tempo: 0.0771 ms
+--Bubble Sort-- 
+        comparacoes: 49995000
+        trocas: 0
+        Tempo: 165.435 ms
+--Bubble Sort Otimizado--
+        comparacoes: 9999
+        trocas: 0
+        Tempo: 0.0495 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/medio_decrescente.bin
+--Selection Sort--
+        comparacoes: 49995000
+        trocas: 9999
+        Tempo: 163.8 ms
+--Insertion Sort-- 
+        comparacoes: 49995000
+        trocas: 49995000
+        Tempo: 232.986 ms
+--Bubble Sort-- 
+        comparacoes: 49995000
+        trocas: 49995000
+        Tempo: 489.914 ms
+--Bubble Sort Otimizado-- 
+        comparacoes: 49995000
+        trocas: 49995000
+        Tempo: 496.632 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/grande_aleatorio.bin
+--Selection Sort--
+        comparacoes: 4999950000
+        trocas: 99999
+        Tempo: 16496.3 ms
+--Insertion Sort--
+        comparacoes: 2496235173
+        trocas: 2496135185
+        Tempo: 11660.7 ms
+--Bubble Sort--
+        comparacoes: 4999950000
+        trocas: 2496135185
+        Tempo: 47581.1 ms
+--Bubble Sort Otimizado-- 
+        comparacoes: 4999843970
+        trocas: 2496135185
+        Tempo: 47411.9 ms
+
+-- Testes de Busca (vetor GRANDE, cenario: aleatorio) --
+Busca Sequencial (existente = 501372): Encontrado
+        comparacoes: 59541
+        Tempo: 0.3663 ms
+Busca Sequencial (inexistente = -1): Nao encontrado
+        comparacoes: 100000
+        Tempo: 0.8816 ms
+Busca Binaria (existente = 501372): Encontrado
+        comparacoes: 16
+        Tempo: 0.001 ms
+Busca Binaria (inexistente = -1): Nao encontrado
+        comparacoes: 16
+        Tempo: 0.0006 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/grande_crescente.bin
+--Selection Sort--
+        comparacoes: 4999950000
+        trocas: 99999
+        Tempo: 16598.6 ms
+--Insertion Sort--
+        comparacoes: 99999
+        trocas: 0
+        Tempo: 0.5099 ms
+--Bubble Sort-- 
+        comparacoes: 4999950000
+        trocas: 0
+        Tempo: 16605.1 ms
+--Bubble Sort Otimizado--
+        comparacoes: 99999
+        trocas: 0
+        Tempo: 0.3676 ms
+
+-- Testes de Busca (vetor GRANDE, cenario: crescente) --
+Busca Sequencial (existente = 50000): Encontrado
+        comparacoes: 50001
+        Tempo: 0.2958 ms
+Busca Sequencial (inexistente = -1): Nao encontrado
+        comparacoes: 100000
+        Tempo: 0.5921 ms
+Busca Binaria (existente = 50000): Encontrado
+        comparacoes: 16
+        Tempo: 0.0007 ms
+Busca Binaria (inexistente = -1): Nao encontrado
+        comparacoes: 16
+        Tempo: 0.001 ms
+
+
+----------------------------------------------------------------------------
+Arquivo: ../dados/grande_decrescente.bin
+--Selection Sort--
+        comparacoes: 4999950000
+        trocas: 99999
+        Tempo: 16602.1 ms
+--Insertion Sort-- 
+        comparacoes: 4999950000
+        trocas: 4999950000
+        Tempo: 23619.4 ms
+--Bubble Sort-- 
+        comparacoes: 4999950000
+        trocas: 4999950000
+        Tempo: 49932 ms
+--Bubble Sort Otimizado-- 
+        comparacoes: 4999950000
+        trocas: 4999950000
+        Tempo: 50084.8 ms
+
+-- Testes de Busca (vetor GRANDE, cenario: decrescente) --
+Busca Sequencial (existente = 50001): Encontrado
+        comparacoes: 50000
+        Tempo: 0.2971 ms
+Busca Sequencial (inexistente = -1): Nao encontrado
+        comparacoes: 100000
+        Tempo: 0.5946 ms
+Busca Binaria (existente = 50001): Encontrado
+        comparacoes: 16
+        Tempo: 0.0006 ms
+Busca Binaria (inexistente = -1): Nao encontrado
+        comparacoes: 16
+        Tempo: 0.0008 ms
+
+==== FIM DOS EXPERIMENTOS ====
